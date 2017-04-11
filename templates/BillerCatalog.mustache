@@ -1,0 +1,11 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tem:BillerCatalog>
+        <tem:EntityId>{{EntityID}}</tem:EntityId>
+        <tem:LocationId>{{LocationID}}</tem:LocationId>
+        <!--Optional:-->
+        <tem:PointOfSaleID>{{PointOfSaleID}}</tem:PointOfSaleID>
+      </tem:BillerCatalog>
+   </soapenv:Body>
+</soapenv:Envelope>

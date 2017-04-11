@@ -1,0 +1,27 @@
+{
+  "name": "paykii",
+  "version": "1.0.0",
+  "description": "Api wrapper arpund the paykii SOAP api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/rossnelson/paykii.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rossnelson/paykii/issues"
+  },
+  "homepage": "https://github.com/rossnelson/paykii#readme",
+  "dependencies": {
+    "q": "^1.4.1",
+    "axios": "^0.15.3",
+    "lodash": "^4.17.4",
+    "inflected": "^1.1.7",
+    "mustache": "^2.3.0",
+    "xml2js": "^0.4.17"
+  }
+}

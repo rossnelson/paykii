@@ -1,0 +1,36 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tem:ProcessPayment>
+        <tem:EntityId>{{EntityID}}</tem:EntityId>
+        <tem:LocationId>{{LocationID}}</tem:LocationId>
+        <!--Optional:-->
+        <tem:PointOfSaleID>{{PointOfSaleID}}</tem:PointOfSaleID>
+        <tem:CashierID>{{CashierID}}</tem:CashierID>
+         <!--Optional:-->
+         <tem:EntityTransactionID>{{EntityTransactionID}}</tem:EntityTransactionID>
+         <!--Optional:-->
+         <tem:BillerID>{{BillerID}}</tem:BillerID>
+         <!--Optional:-->
+         <!--Optional:-->
+         <tem:SKU>{{SKU}}</tem:SKU>
+         <!--Optional:-->
+         <tem:Input1>{{Input1}}</tem:Input1>
+         <tem:Amount>{{Amount}}</tem:Amount>
+         <!--Optional:-->
+         <tem:SenderName>{{SenderName}}</tem:SenderName>
+         <!--Optional:-->
+         <tem:SenderDateOfBirth>{{SenderDateOfBirth}}</tem:SenderDateOfBirth>
+         <!--Optional:-->
+         <tem:SenderLocation>{{SenderLocation}}</tem:SenderLocation>
+         <!--Optional:-->
+         <tem:SenderEmail>{{SenderEmail}}</tem:SenderEmail>
+         <!--Optional:-->
+         <tem:SenderMobileNumber>{{SenderMobileNumber}}</tem:SenderMobileNumber>
+         <!--Optional:-->
+         <tem:BeneficiaryName>{{BeneficiaryName}}</tem:BeneficiaryName>
+         <!--Optional:-->
+         <tem:BeneficiaryMobileNumber>{{BeneficiaryMobileNumber}}</tem:BeneficiaryMobileNumber>
+      </tem:ProcessPayment>
+   </soapenv:Body>
+</soapenv:Envelope>
