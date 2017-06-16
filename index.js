@@ -53,8 +53,13 @@ class Paykii {
     return request.call(this, method, xml);
   }
 
-  amountDueCall(BillerID, SKU, Inputs) {
-    const xml = buildXML.call(this, 'AmountDue', { BillerID, SKU, Inputs });
+  amountDueCall(BillerID, SKU, Inputs, EntityTransactionID) {
+    EntityTransactionID = EntityTransactionID || 'None';
+    const xml = buildXML.call(
+      this,
+      'AmountDue',
+      { BillerID, SKU, Inputs, EntityTransactionID }
+    );
     return request.call(this, 'AmountDue', xml);
   }
 
